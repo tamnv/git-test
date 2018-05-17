@@ -2,8 +2,8 @@ In terms of solution for multiple pages. We suggest two solutions:
 
 ### 1. Create a custom upstream - Like as SPCS project implementation.
   - We create a custom upstream from FCL. https://pantheon.io/docs/create-custom-upstream/
-  - We build some functions on theme setting and Admin can upload logo, background...
-  - With each movie page, we will create a new site base on custom upstream.
+  - We build some functions on theme setting where admin can upload logo, background...
+  - For each movie page, we will create a new site base on custom upstream.
 
   **Advantages:**
   - We can easy develop style for each site.
