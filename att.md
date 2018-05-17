@@ -1,6 +1,6 @@
 In terms of solution for multiple pages. We suggest two solutions:
 
-### Create a custom upstream - Like as SPCS project implementation.
+### 1. Create a custom upstream - Like as SPCS project implementation.
   - We create a custom upstream from FCL. https://pantheon.io/docs/create-custom-upstream/
   - We build some functions on theme setting and Admin can upload logo, background...
   - With each movie page, we will create a new site base on custom upstream.
@@ -17,7 +17,7 @@ In terms of solution for multiple pages. We suggest two solutions:
   - Developer must join for creating site new new site/movie.
   - If there is update on component, it has to apply update before using it on site.
 
-### Create one site base on FCL.
+### 2. Create one site base on FCL.
   - Create a content type for main site:
 
     http://start.att.net/exclusive/audience
@@ -46,12 +46,12 @@ In terms of solution for multiple pages. We suggest two solutions:
    - If customer want to setup domain for each movie, it already has solution for it.
 
   **Advantages:**
-    - Maintain on only one site.
-    - Editor can create site/movie page themeselves.
-    - Easily reuse component.
-    - Manange(content, user) on one place.
-    - Cheaper price than option 1.
+  - Maintain on only one site.
+  - Editor can create site/movie page themeselves.
+  - Easily reuse component.
+  - Manange(content, user) on one place.
+  - Cheaper price than option 1.
 
   **Disadvantages:**
-    - Quite complex on content permission, for example: If client want to assign each editor for each movie.
-    - If there is a problem, it will affect all sites/movies.
+  - Quite complex on content permission, for example: If client want to assign each editor for each movie.
+  - If there is a problem, it will affect all sites/movies.
