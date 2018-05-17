@@ -49,7 +49,7 @@ In terms of solution for multiple pages. We suggest two solutions:
   - Editor can create site/movie page themeselves.
   - Easily reuse components.
   - Manange(contents, users) on one place.
-  - Cheaper price than option 1.
+  - Cheaper price than option [1](1-create-a-custom-upstream---like-as-spcs-project-implementation).
 
   **Disadvantages:**
   - Quite complex on content permission, for example: If client want to assign each editor for each movie.
