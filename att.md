@@ -20,13 +20,23 @@ In terms of solution for multiple pages. We suggest two solutions:
 ### Create one site base on FCL.
   - Create a content type for main site:
     http://start.att.net/exclusive/audience
+
     http://start.att.net/exclusive/audience/originals
+
     http://start.att.net/exclusive/audience/documentaries
 
-  - Create a content type for landing page movie. Example pages: http://start.att.net/exclusive/audience/condor, http://start.att.net/exclusive/audience/alone-in-the-game-documentary ...
+  - Create a content type for landing page movie. Example pages:
+    http://start.att.net/exclusive/audience/condor
+
+    http://start.att.net/exclusive/audience/alone-in-the-game-documentary ...
+
     > This content of this content type will manage the movie information. It will support editor upload background, logo and order menu.
 
-  - Create a content type for subpage movie. For examples: http://start.att.net/exclusive/audience/condor, http://start.att.net/exclusive/audience/condor/episodes ...
+  - Create a content type for subpage movie. For examples:
+    http://start.att.net/exclusive/audience/condor
+
+    http://start.att.net/exclusive/audience/condor/episodes ...
+
     > It will provide some options for displaying logo, menu...
     > It will have reference field to the landing page movie for loading background, logo... on subpage.
 
