@@ -6,16 +6,15 @@ In terms of solution for multiple pages. We suggest two solutions:
   - For each movie page, we will create a new site base on custom upstream.
 
   **Advantages:**
-  - We can easy develop style for each site.
-  - We update on custom upstream and apply for each site by the dashboard UI.
+  - We can develop easily style for each site.
+  - If there is any change, we only need to update on upstream and it will show notification on dashboard UI about the update.
   - Easy to manage content for each site/movie.
   - If there is a problem, it will affect only one site.
 
   **Disadvantages:**
   - It's probably complex on single site on.
   - High price.
-  - Developer must join for creating site new new site/movie.
-  - If there is update on component, it has to apply update before using it on site.
+  - Developer must join for creating site new site/movie.
 
 ### 2. Create one site base on FCL.
   - Create a content type for main site:
@@ -32,9 +31,9 @@ In terms of solution for multiple pages. We suggest two solutions:
 
     http://start.att.net/exclusive/audience/alone-in-the-game-documentary ...
 
-    > This content of this content type will manage the movie information. It will support editor upload background, logo and order menu.
+    > This content of this content type will manage the movie information. It will help editor to upload background, logo and to update order of menu item.
 
-  - Create a content type for subpage movie. For examples:
+  - Create a content type for subpage movie. For examples: Cast information, episodes, talks.
 
     http://start.att.net/exclusive/audience/condor
 
@@ -43,13 +42,13 @@ In terms of solution for multiple pages. We suggest two solutions:
     > It will provide some options for displaying logo, menu...
     > It will have reference field to the landing page movie for loading background, logo... on subpage.
 
-   - If customer want to setup domain for each movie, it already has solution for it.
+  - If customer want to setup domain for each movie, we've already had solution for it.
 
   **Advantages:**
   - Maintain on only one site.
   - Editor can create site/movie page themeselves.
-  - Easily reuse component.
-  - Manange(content, user) on one place.
+  - Easily reuse components.
+  - Manange(contents, users) on one place.
   - Cheaper price than option 1.
 
   **Disadvantages:**
